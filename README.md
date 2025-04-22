@@ -83,6 +83,13 @@ npm run build
 # or
 yarn build
 ```
+### Building for docker 
+```bash
+npm install
+docker build  -t  transferfiles:0.0.1 .
+docker run -p 3000:3000 transferfiles:0.0.1
+```
+
 
 ## Technology Stack
 
